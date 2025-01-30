@@ -1,0 +1,7 @@
+|Multiplexer
+in_1[0] => out.DATAB
+in_2 => out.DATAA
+selection => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
