@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250127-Light-On-LED/Sim/tb_led.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250127-Light-On-LED/RTL/light_up_led.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250127-Light-On-LED/Quartus_Projcet/db/Light_Up_LED.cbx.xml
+design_name = Light_Up_LED
+instance = comp, \led_out~output , led_out~output, Light_Up_LED, 1
+instance = comp, \key_in~input , key_in~input, Light_Up_LED, 1
