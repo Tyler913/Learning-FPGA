@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Full-Adder/Stimulation/Stimulation_Full_Adder.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Full-Adder/RTL/Half_Adder.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Full-Adder/RTL/Full_Adder.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Full-Adder/Quartus-Project/db/Full_Adder.cbx.xml
+design_name = Full_Adder
+instance = comp, \sum~output , sum~output, Full_Adder, 1
+instance = comp, \carry~output , carry~output, Full_Adder, 1
+instance = comp, \in_1~input , in_1~input, Full_Adder, 1
+instance = comp, \cin~input , cin~input, Full_Adder, 1
+instance = comp, \in_2~input , in_2~input, Full_Adder, 1
+instance = comp, \Half_Adder_Instance_1|Add0~0 , Half_Adder_Instance_1|Add0~0, Full_Adder, 1
+instance = comp, \carry~0 , carry~0, Full_Adder, 1
