@@ -1,0 +1,152 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "02/02/2025 21:06:36"
+
+// 
+// Device: Altera EP4CE10F17C8 Package FBGA256
+// 
+
+// 
+// This Verilog file should be used for ModelSim (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Register (
+	sys_clock,
+	sys_reset_n,
+	key_in,
+	led_out);
+input 	sys_clock;
+input 	sys_reset_n;
+input 	key_in;
+output 	led_out;
+
+// Design Ports Information
+// led_out	=>  Location: PIN_F1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sys_reset_n	=>  Location: PIN_D3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// key_in	=>  Location: PIN_E7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// sys_clock	=>  Location: PIN_G2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("Register_v.sdo");
+// synopsys translate_on
+
+wire \led_out~output_o ;
+wire \sys_clock~input_o ;
+wire \sys_reset_n~input_o ;
+wire \key_in~input_o ;
+wire \led_out~0_combout ;
+wire \led_out~reg0_q ;
+
+
+// Location: IOOBUF_X0_Y19_N23
+cycloneive_io_obuf \led_out~output (
+	.i(\led_out~reg0_q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led_out~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led_out~output .bus_hold = "false";
+defparam \led_out~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y18_N15
+cycloneive_io_ibuf \sys_clock~input (
+	.i(sys_clock),
+	.ibar(gnd),
+	.o(\sys_clock~input_o ));
+// synopsys translate_off
+defparam \sys_clock~input .bus_hold = "false";
+defparam \sys_clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X1_Y24_N8
+cycloneive_io_ibuf \sys_reset_n~input (
+	.i(sys_reset_n),
+	.ibar(gnd),
+	.o(\sys_reset_n~input_o ));
+// synopsys translate_off
+defparam \sys_reset_n~input .bus_hold = "false";
+defparam \sys_reset_n~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X7_Y24_N1
+cycloneive_io_ibuf \key_in~input (
+	.i(key_in),
+	.ibar(gnd),
+	.o(\key_in~input_o ));
+// synopsys translate_off
+defparam \key_in~input .bus_hold = "false";
+defparam \key_in~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y19_N16
+cycloneive_lcell_comb \led_out~0 (
+// Equation(s):
+// \led_out~0_combout  = (\sys_reset_n~input_o  & \key_in~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\sys_reset_n~input_o ),
+	.datad(\key_in~input_o ),
+	.cin(gnd),
+	.combout(\led_out~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \led_out~0 .lut_mask = 16'hF000;
+defparam \led_out~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X1_Y19_N17
+dffeas \led_out~reg0 (
+	.clk(\sys_clock~input_o ),
+	.d(\led_out~0_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\led_out~reg0_q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \led_out~reg0 .is_wysiwyg = "true";
+defparam \led_out~reg0 .power_up = "low";
+// synopsys translate_on
+
+assign led_out = \led_out~output_o ;
+
+endmodule

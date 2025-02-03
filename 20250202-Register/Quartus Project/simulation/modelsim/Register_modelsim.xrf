@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Register/RTL/Register.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250202-Register/Quartus Project/db/Register.cbx.xml
+design_name = Register
+instance = comp, \led_out~output , led_out~output, Register, 1
+instance = comp, \sys_clock~input , sys_clock~input, Register, 1
+instance = comp, \sys_reset_n~input , sys_reset_n~input, Register, 1
+instance = comp, \key_in~input , key_in~input, Register, 1
+instance = comp, \led_out~0 , led_out~0, Register, 1
+instance = comp, \led_out~reg0 , led_out~reg0, Register, 1
