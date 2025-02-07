@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/simulation/modelsim
+T_opt
+Z1 !s110 1738952755
+V_486H@Gi]P^5AOb8DjkPI0
+04 30 4 work Stimulation_Frequency_Division fast 0
+=1-40c2ba52dc6b-67a65033-1c5-d88
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vFreequency_Division
+!s110 1738952754
+!i10b 1
+!s100 R>Sfij[?VjB:V7Y8_OfZ[0
+IQo;?d_UPJ;W^GDY7=3iMW3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1738952674
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL/Frequency_Division.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL/Frequency_Division.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1738952754.954000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL/Frequency_Division.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL/Frequency_Division.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@freequency_@division
+vStimulation_Frequency_Division
+R1
+!i10b 1
+!s100 `QQMBzC0PM514^ge^=B^M3
+I:Bl5F>XNU6fjCAi@ONZT_1
+R2
+R0
+w1738952736
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation/Stimulation_Frequency_Division.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation/Stimulation_Frequency_Division.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1738952755.065000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation/Stimulation_Frequency_Division.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation/Stimulation_Frequency_Division.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250207-Frequency-Division/Quartus Project/../Stimulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@stimulation_@frequency_@division
