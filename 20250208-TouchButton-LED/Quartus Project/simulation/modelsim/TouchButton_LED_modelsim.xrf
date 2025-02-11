@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Stimulation/Stimulation_TouchButton_LED.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL/TouchButton_LED.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/db/TouchButton_LED.cbx.xml
+design_name = TouchButton_LED
+instance = comp, \touch_key_2~feeder , touch_key_2~feeder, TouchButton_LED, 1
+instance = comp, \led~output , led~output, TouchButton_LED, 1
+instance = comp, \system_clock~input , system_clock~input, TouchButton_LED, 1
+instance = comp, \system_clock~inputclkctrl , system_clock~inputclkctrl, TouchButton_LED, 1
+instance = comp, \touch_button~input , touch_button~input, TouchButton_LED, 1
+instance = comp, \touch_key_1~0 , touch_key_1~0, TouchButton_LED, 1
+instance = comp, \system_reset_n~input , system_reset_n~input, TouchButton_LED, 1
+instance = comp, \system_reset_n~inputclkctrl , system_reset_n~inputclkctrl, TouchButton_LED, 1
+instance = comp, \led~0 , led~0, TouchButton_LED, 1
+instance = comp, \led~reg0 , led~reg0, TouchButton_LED, 1

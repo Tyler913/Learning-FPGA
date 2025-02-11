@@ -1,0 +1,11 @@
+|TouchButton_LED
+system_clock => led~reg0.CLK
+system_clock => touch_key_2.CLK
+system_clock => touch_key_1.CLK
+system_reset_n => led~reg0.PRESET
+system_reset_n => touch_key_2.PRESET
+system_reset_n => touch_key_1.PRESET
+touch_button => touch_key_1.DATAIN
+led <= led~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

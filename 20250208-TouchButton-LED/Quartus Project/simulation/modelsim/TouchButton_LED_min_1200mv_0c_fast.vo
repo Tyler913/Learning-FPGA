@@ -1,0 +1,256 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "02/10/2025 23:36:35"
+
+// 
+// Device: Altera EP4CE10F17C8 Package FBGA256
+// 
+
+// 
+// This Verilog file should be used for ModelSim (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module TouchButton_LED (
+	system_clock,
+	system_reset_n,
+	touch_button,
+	led);
+input 	system_clock;
+input 	system_reset_n;
+input 	touch_button;
+output 	led;
+
+// Design Ports Information
+// led	=>  Location: PIN_L7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// system_clock	=>  Location: PIN_E1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// system_reset_n	=>  Location: PIN_M15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// touch_button	=>  Location: PIN_K11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("TouchButton_LED_min_1200mv_0c_v_fast.sdo");
+// synopsys translate_on
+
+wire \touch_key_2~q ;
+wire \touch_key_2~feeder_combout ;
+wire \led~output_o ;
+wire \system_clock~input_o ;
+wire \system_clock~inputclkctrl_outclk ;
+wire \touch_button~input_o ;
+wire \touch_key_1~0_combout ;
+wire \system_reset_n~input_o ;
+wire \system_reset_n~inputclkctrl_outclk ;
+wire \touch_key_1~q ;
+wire \led~0_combout ;
+wire \led~reg0_q ;
+
+
+// Location: FF_X16_Y6_N13
+dffeas touch_key_2(
+	.clk(\system_clock~inputclkctrl_outclk ),
+	.d(\touch_key_2~feeder_combout ),
+	.asdata(vcc),
+	.clrn(\system_reset_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\touch_key_2~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam touch_key_2.is_wysiwyg = "true";
+defparam touch_key_2.power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X16_Y6_N12
+cycloneive_lcell_comb \touch_key_2~feeder (
+// Equation(s):
+// \touch_key_2~feeder_combout  = \touch_key_1~q 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\touch_key_1~q ),
+	.cin(gnd),
+	.combout(\touch_key_2~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \touch_key_2~feeder .lut_mask = 16'hFF00;
+defparam \touch_key_2~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOOBUF_X11_Y0_N9
+cycloneive_io_obuf \led~output (
+	.i(!\led~reg0_q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\led~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \led~output .bus_hold = "false";
+defparam \led~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N8
+cycloneive_io_ibuf \system_clock~input (
+	.i(system_clock),
+	.ibar(gnd),
+	.o(\system_clock~input_o ));
+// synopsys translate_off
+defparam \system_clock~input .bus_hold = "false";
+defparam \system_clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G2
+cycloneive_clkctrl \system_clock~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\system_clock~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\system_clock~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \system_clock~inputclkctrl .clock_type = "global clock";
+defparam \system_clock~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y6_N15
+cycloneive_io_ibuf \touch_button~input (
+	.i(touch_button),
+	.ibar(gnd),
+	.o(\touch_button~input_o ));
+// synopsys translate_off
+defparam \touch_button~input .bus_hold = "false";
+defparam \touch_button~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X16_Y6_N18
+cycloneive_lcell_comb \touch_key_1~0 (
+// Equation(s):
+// \touch_key_1~0_combout  = !\touch_button~input_o 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\touch_button~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\touch_key_1~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \touch_key_1~0 .lut_mask = 16'h0F0F;
+defparam \touch_key_1~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y12_N15
+cycloneive_io_ibuf \system_reset_n~input (
+	.i(system_reset_n),
+	.ibar(gnd),
+	.o(\system_reset_n~input_o ));
+// synopsys translate_off
+defparam \system_reset_n~input .bus_hold = "false";
+defparam \system_reset_n~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G9
+cycloneive_clkctrl \system_reset_n~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\system_reset_n~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\system_reset_n~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \system_reset_n~inputclkctrl .clock_type = "global clock";
+defparam \system_reset_n~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: FF_X16_Y6_N19
+dffeas touch_key_1(
+	.clk(\system_clock~inputclkctrl_outclk ),
+	.d(\touch_key_1~0_combout ),
+	.asdata(vcc),
+	.clrn(\system_reset_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\touch_key_1~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam touch_key_1.is_wysiwyg = "true";
+defparam touch_key_1.power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X16_Y6_N28
+cycloneive_lcell_comb \led~0 (
+// Equation(s):
+// \led~0_combout  = \led~reg0_q  $ (((!\touch_key_2~q  & \touch_key_1~q )))
+
+	.dataa(\touch_key_2~q ),
+	.datab(gnd),
+	.datac(\led~reg0_q ),
+	.datad(\touch_key_1~q ),
+	.cin(gnd),
+	.combout(\led~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \led~0 .lut_mask = 16'hA5F0;
+defparam \led~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X16_Y6_N29
+dffeas \led~reg0 (
+	.clk(\system_clock~inputclkctrl_outclk ),
+	.d(\led~0_combout ),
+	.asdata(vcc),
+	.clrn(\system_reset_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\led~reg0_q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \led~reg0 .is_wysiwyg = "true";
+defparam \led~reg0 .power_up = "low";
+// synopsys translate_on
+
+assign led = \led~output_o ;
+
+endmodule

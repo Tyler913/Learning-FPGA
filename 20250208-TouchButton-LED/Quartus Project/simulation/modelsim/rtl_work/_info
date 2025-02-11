@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/simulation/modelsim
+T_opt
+!s110 1739248419
+VoFe1O;<YjY__XBSff=M0A1
+04 27 4 work Stimulation_TouchButton_LED fast 0
+=1-40c2ba52dc6b-67aad322-37a-3470
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vStimulation_TouchButton_LED
+Z1 !s110 1739248418
+!i10b 1
+!s100 WgZA8LkFE4O:0`jT1WWa^0
+Iz:R=MKdK3Hm??1a64dAH[0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739248403
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation/Stimulation_TouchButton_LED.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation/Stimulation_TouchButton_LED.v
+L0 3
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1739248418.585000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation/Stimulation_TouchButton_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation/Stimulation_TouchButton_LED.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/Quartus Project/../Stimulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@stimulation_@touch@button_@l@e@d
+vTouchButton_LED
+R1
+!i10b 1
+!s100 >e6DbJ;8dbPnII9YZ_D0h0
+ImU3RFc0G<Oe?`ij96g41R3
+R2
+R0
+w1739247935
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL/TouchButton_LED.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL/TouchButton_LED.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739248418.510000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL/TouchButton_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL/TouchButton_LED.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250208-TouchButton-LED/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@touch@button_@l@e@d
