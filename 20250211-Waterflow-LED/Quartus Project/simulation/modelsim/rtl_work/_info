@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/simulation/modelsim
+T_opt
+!s110 1739297407
+VKG[;Af]LVNgDaUXd76l7C2
+04 25 4 work Stimulation_Waterflow_LED fast 0
+=4-40c2ba52dc6b-67ab927f-2f0-169c
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vStimulation_Waterflow_LED
+!s110 1739296882
+!i10b 1
+!s100 4[VMaXTE`5X4[HHJ;GB?l2
+INSZiITW=m[;XY?0L<;<mP1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739296815
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation/Stimulation_Waterflow_LED.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation/Stimulation_Waterflow_LED.v
+L0 3
+Z2 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1739296882.683000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation/Stimulation_Waterflow_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation/Stimulation_Waterflow_LED.v|
+!i113 0
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/Quartus Project/../Stimulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@stimulation_@waterflow_@l@e@d
+vWaterflow_LED
+!s110 1739297404
+!i10b 1
+!s100 8TR7T^X2c9eZkdLNRDD4d2
+IR0ZHn<hP5MS?RSeJ;MWb^0
+R1
+R0
+w1739297335
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL/Waterlooflow_LED.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL/Waterlooflow_LED.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1739297404.162000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL/Waterlooflow_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL/Waterlooflow_LED.v|
+!i113 0
+R3
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250211-Waterflow-LED/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@waterflow_@l@e@d
