@@ -1,0 +1,15 @@
+|Finite_State_Machine
+sys_clock => po_cola~reg0.CLK
+sys_clock => state~1.DATAIN
+sys_reset_n => po_cola~reg0.ACLR
+sys_reset_n => state~3.DATAIN
+money_input => always1.IN0
+money_input => Selector1.IN2
+money_input => Selector2.IN2
+money_input => Selector0.IN2
+money_input => Selector0.IN1
+money_input => Selector1.IN1
+money_input => Selector2.IN1
+po_cola <= po_cola~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
