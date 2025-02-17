@@ -1,0 +1,15 @@
+|Vending_Machine
+system_clock => changes~reg0.CLK
+system_clock => coke~reg0.CLK
+system_clock => state~3.DATAIN
+system_reset_n => coke~reg0.ACLR
+system_reset_n => changes~reg0.ACLR
+system_reset_n => state~5.DATAIN
+half_dollar => Equal0.IN1
+half_dollar => Equal1.IN0
+one_dollar => Equal0.IN0
+one_dollar => Equal1.IN1
+coke <= coke~reg0.DB_MAX_OUTPUT_PORT_TYPE
+changes <= changes~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

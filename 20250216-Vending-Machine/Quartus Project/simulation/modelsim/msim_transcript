@@ -1,0 +1,1173 @@
+# Reading D:/Applications/ModelSim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do Vending_Machine_run_msim_rtl_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_ver ./verilog_libs/altera_ver 
+# Copying D:/Applications/ModelSim/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/Applications/ModelSim/win64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# vlog -vlog01compat -work altera_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:10 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_primitives.v 
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# End time: 21:00:10 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# 
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet lpm_ver ./verilog_libs/lpm_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lpm_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:10 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/220model.v 
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# End time: 21:00:10 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# 
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet sgate_ver ./verilog_libs/sgate_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work sgate_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:10 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/sgate.v 
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# End time: 21:00:11 on Feb 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# 
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_mf_ver ./verilog_libs/altera_mf_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:11 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 21:00:11 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
+# 
+# vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
+# Modifying modelsim.ini
+# vlog -sv -work altera_lnsim_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_lnsim.sv}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:11 on Feb 16,2025
+# vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_lnsim.sv 
+# -- Compiling package altera_lnsim_functions
+# -- Compiling module altera_pll
+# -- Importing package altera_lnsim_functions
+# -- Compiling module dps_extra_kick
+# -- Compiling module dprio_init
+# -- Compiling module pll_dps_lcell_comb
+# -- Compiling module altera_stratixv_pll
+# -- Compiling module altera_arriav_pll
+# -- Compiling module altera_arriavgz_pll
+# -- Compiling module altera_cyclonev_pll
+# -- Compiling package altera_generic_pll_functions
+# -- Compiling module generic_pll
+# -- Importing package altera_generic_pll_functions
+# -- Compiling module generic_cdr
+# -- Compiling module common_28nm_ram_pulse_generator
+# -- Compiling module common_28nm_ram_register
+# -- Compiling module common_28nm_ram_block
+# -- Compiling module generic_m20k
+# -- Compiling module generic_m10k
+# -- Compiling module common_28nm_mlab_cell_pulse_generator
+# -- Compiling module common_28nm_mlab_latch
+# -- Compiling module common_28nm_mlab_cell_core
+# -- Compiling module common_porta_latches
+# -- Compiling module generic_28nm_hp_mlab_cell_impl
+# -- Compiling module common_porta_registers
+# -- Compiling module generic_28nm_lc_mlab_cell_impl
+# -- Compiling module generic_mux
+# -- Compiling module generic_device_pll
+# -- Compiling module altera_mult_add
+# -- Compiling module altera_mult_add_rtl
+# -- Compiling module ama_signed_extension_function
+# -- Compiling module ama_dynamic_signed_function
+# -- Compiling module ama_register_function
+# -- Compiling module ama_register_with_ext_function
+# -- Compiling module ama_data_split_reg_ext_function
+# -- Compiling module ama_coef_reg_ext_function
+# -- Compiling module ama_adder_function
+# -- Compiling module ama_multiplier_function
+# -- Compiling module ama_preadder_function
+# -- Compiling module ama_accumulator_function
+# -- Compiling module ama_systolic_adder_function
+# -- Compiling module ama_scanchain
+# -- Compiling module altera_pll_reconfig_tasks
+# 
+# Top level modules:
+# 	altera_pll
+# 	generic_cdr
+# 	generic_m20k
+# 	generic_m10k
+# 	common_porta_latches
+# 	generic_28nm_hp_mlab_cell_impl
+# 	generic_28nm_lc_mlab_cell_impl
+# 	generic_mux
+# 	generic_device_pll
+# 	altera_mult_add
+# 	altera_pll_reconfig_tasks
+# End time: 21:00:12 on Feb 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlib verilog_libs/cycloneive_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneive_ver".
+# 
+# vmap cycloneive_ver ./verilog_libs/cycloneive_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet cycloneive_ver ./verilog_libs/cycloneive_ver 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneive_ver {d:/applications/quartusii_v13.0/quartus/eda/sim_lib/cycloneive_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:12 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/applications/quartusii_v13.0/quartus/eda/sim_lib/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 21:00:12 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/RTL {D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/RTL/Vending_Machine.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:12 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/RTL" D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/RTL/Vending_Machine.v 
+# -- Compiling module Vending_Machine
+# 
+# Top level modules:
+# 	Vending_Machine
+# End time: 21:00:12 on Feb 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/Quartus\ Project/../Stimulation {D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/Quartus Project/../Stimulation/Stimulation_Vending_Machine.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 21:00:12 on Feb 16,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/Quartus Project/../Stimulation" D:/TylerHong/Development/Learn/Learning-FPGA/20250216-Vending-Machine/Quartus Project/../Stimulation/Stimulation_Vending_Machine.v 
+# -- Compiling module Stimulation_Vending_Machine
+# 
+# Top level modules:
+# 	Stimulation_Vending_Machine
+# End time: 21:00:13 on Feb 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Stimulation_Vending_Machine
+# vsim -gui "+altera" -l msim_transcript -do "Vending_Machine_run_msim_rtl_verilog.do" 
+# Start time: 21:00:13 on Feb 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "Vending_Machine(fast)".
+# 
+# Loading work.Stimulation_Vending_Machine(fast)
+# Loading work.Vending_Machine(fast)
+# 
+# add wave *
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# @time    0ns: hale_dollar = 0, one_dollar = 0, coke = 0, changes = 0, money_input = 00, state = 00001
+# @time   40ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00001
+# @time   60ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time   80ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  100ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  120ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  140ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  160ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  220ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  300ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  340ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time  400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  420ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  480ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  500ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  520ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  540ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  560ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  580ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  600ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  620ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  640ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time  680ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  720ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  740ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  760ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  780ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  800ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  820ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  860ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  880ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time  900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  920ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  960ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  980ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+add wave -position insertpoint sim:/Stimulation_Vending_Machine/Vending_Machine_Instance/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.Stimulation_Vending_Machine(fast)
+# Loading work.Vending_Machine(fast)
+run
+# @time    0ns: hale_dollar = 0, one_dollar = 0, coke = 0, changes = 0, money_input = 00, state = 00001
+# @time   40ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00001
+# @time   60ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time   80ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  100ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  120ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  140ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  160ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  220ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  300ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  340ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time  400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  420ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  480ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  500ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  520ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  540ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  560ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  580ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  600ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  620ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  640ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time  680ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  720ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  740ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  760ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  780ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  800ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  820ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  860ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  880ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time  900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time  920ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  960ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  980ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1000ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 1020ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1040ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 1060ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 1080ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1100ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1120ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 1140ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 1160ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 1180ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 1200ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 1220ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 1260ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1300ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 1340ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 1360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1400ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 1420ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 1440ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 1460ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1480ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1500ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 1520ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 1540ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 1560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1580ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 1600ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1640ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 1660ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1680ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1720ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1740ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1760ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 1780ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 1800ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 1820ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 1860ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 1880ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 1900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 1920ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 1940ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 1960ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 1980ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 2000ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 2020ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 2040ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 2060ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 2080ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2100ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2120ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2140ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2160ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 2180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 2200ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2220ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2240ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 2260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 2280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 2300ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 2340ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 2360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 2380ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 2400ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2420ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2440ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 2480ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 2500ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 2520ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 2540ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 2560ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2580ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2600ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2640ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2680ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2720ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2740ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 2760ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 2780ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2800ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2820ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2840ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2860ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 2880ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 2900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 2920ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 2940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 2960ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 2980ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 3000ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 3020ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3040ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 3060ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 3080ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3100ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 3120ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3140ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 3160ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 3200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 3220ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 3240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3260ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 3280ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3300ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 3320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3340ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3360ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 3380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3420ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 3440ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 3460ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3480ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3500ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 3520ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 3540ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3560ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3580ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3600ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 3620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3640ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3680ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 3700ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3720ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3740ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 3760ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3780ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3800ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 3820ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 3840ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 3860ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 3880ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 3900ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 3920ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 3940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 3960ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 3980ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 4000ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4020ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4040ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 4060ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4080ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4100ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4120ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 4140ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4160ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4180ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 4200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 4220ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 4240ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 4260ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4280ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 4300ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 4320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4340ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 4360ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 4380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 4400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4420ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 4440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4480ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 4500ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 4520ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 4540ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 4560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 4580ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 4600ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4620ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 4640ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 4660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4680ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 4700ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 4720ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 4740ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4760ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 4780ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 4800ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 4820ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4840ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 4860ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 4880ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 4900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 4920ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 4940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 4960ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 4980ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 5000ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 5020ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 5040ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5060ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5080ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 5100ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 5120ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 5140ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 5160ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 5180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 5200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5220ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 5240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 5260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5280ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5300ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 5320ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 5340ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5360ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 5380ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 5400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 5420ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 5440ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5460ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 5480ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 5500ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 5520ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 5540ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 5560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 5580ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 5600ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 5620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 5640ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 5660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 5680ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 5700ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5720ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5740ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 5760ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5780ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 5800ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 5820ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 5840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 5860ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 5880ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 5900ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 5920ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 5940ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 5960ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 5980ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 6000ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 6020ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 6040ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6060ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 6080ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 6100ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6120ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 6140ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 6160ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6180ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 6200ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 6220ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6240ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 6260ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 6280ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6300ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 6320ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 6340ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 6360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 6380ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 6400ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 6420ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 6440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 6460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 6480ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 6500ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 6520ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 6540ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 6560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 6580ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 6600ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 6620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 6640ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 6660ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 6680ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 6700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 6720ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 6740ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 6760ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 6780ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 6800ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 6820ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 6840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 6860ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 6880ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 6900ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 6920ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 6940ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 6960ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 6980ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7000ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 7020ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7040ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 7060ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 7080ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 7100ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 7120ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7140ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 7160ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 7180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 7200ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7220ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7240ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 7260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 7280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 7300ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7320ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7340ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 7360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7380ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 7400ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 7420ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7440ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 7460ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 7480ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 7500ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 7520ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7540ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 7560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 7580ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7600ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 7620ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 7640ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 7660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7680ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 7720ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7740ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7760ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7780ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 7800ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 7820ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 7840ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 7860ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 7880ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 7900ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 7920ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 7940ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 7960ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 7980ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 8000ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 8020ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 8040ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 8060ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 8080ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8100ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 8120ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 8140ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 8160ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 8200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8220ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 8240ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 8260ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 8280ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8300ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 8320ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8340ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 8360ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 8380ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 8400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 8420ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 8440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 8480ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 8500ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8520ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 8540ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8560ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 8580ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8600ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 8620ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8640ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 8660ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 8680ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 8700ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8720ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 8740ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 8760ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 8780ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 8800ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 8820ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 8840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 8860ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 8880ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 8900ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 8920ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 8940ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 8960ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 8980ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 9000ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 9020ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 9040ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 9060ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 9080ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9100ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9120ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9140ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9160ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9180ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 9200ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 9220ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 9240ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9260ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9280ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 9300ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 9320ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 9340ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9360ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9380ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9400ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9420ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 9460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 9480ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9500ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9520ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 9540ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 9560ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00010
+# @time 9580ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9600ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9620ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9640ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 9660ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time 9680ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9700ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time 9720ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 9740ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 9760ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time 9780ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9800ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9820ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time 9840ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time 9860ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time 9880ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 10000
+# @time 9900ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time 9920ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time 9940ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time 9960ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 1, money_input = 01, state = 00001
+# @time 9980ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.Stimulation_Vending_Machine(fast)
+# Loading work.Vending_Machine(fast)
+run
+# @time    0ns: hale_dollar = 0, one_dollar = 0, coke = 0, changes = 0, money_input = 00, state = 00001
+# @time   40ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00001
+# @time   60ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time   80ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  100ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  120ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00100
+# @time  140ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  160ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  180ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  200ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  220ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  240ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  260ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  280ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 0, money_input = 10, state = 00001
+# @time  300ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  320ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  340ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# @time  360ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 00010
+# @time  380ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 01000
+# @time  400ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 10000
+# @time  420ns: hale_dollar = 1, one_dollar = 0, coke = 1, changes = 1, money_input = 10, state = 00001
+# @time  440ns: hale_dollar = 0, one_dollar = 1, coke = 0, changes = 0, money_input = 01, state = 00100
+# @time  460ns: hale_dollar = 1, one_dollar = 0, coke = 0, changes = 0, money_input = 10, state = 01000
+# @time  480ns: hale_dollar = 0, one_dollar = 1, coke = 1, changes = 0, money_input = 01, state = 00001
+# End time: 21:03:40 on Feb 16,2025, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0
