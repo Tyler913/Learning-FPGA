@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/simulation/modelsim
+T_opt
+Z1 !s110 1739824236
+VZ_4J6N`DNooHJeeZkNi_61
+04 18 4 work Stimulation_Buzzer fast 0
+=1-40c2ba52dc6b-67b39c6c-2cc-65f4
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vBuzzer
+R1
+!i10b 1
+!s100 dCTW<kfb7E^86fceB269`0
+I:f:AYN2V?1>N61QQ4d6DD1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739821728
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL/Buzzer.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL/Buzzer.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1739824236.330000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL/Buzzer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL/Buzzer.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@buzzer
+vStimulation_Buzzer
+R1
+!i10b 1
+!s100 <dJcP:2Cm5D;0Snif9bO12
+IW1aFh]Q`Gmnf:53]zU;^L0
+R2
+R0
+w1739823536
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation/Stimulation_Buzzer.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation/Stimulation_Buzzer.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1739824236.406000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation/Stimulation_Buzzer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation/Stimulation_Buzzer.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250217-Buzzer/Quartus Porject/../Stimulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@stimulation_@buzzer
