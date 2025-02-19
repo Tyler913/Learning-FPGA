@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/simulation/modelsim
+T_opt
+Z1 !s110 1739931237
+V_S36;]DA6ldL2MfQEnl;81
+04 21 4 work Simulation_seg_static fast 0
+=1-40c2ba52dc6b-67b53e65-2f3-16d0
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vhc595_control
+R1
+!i10b 1
+!s100 aE0?HmLL5B;Tj:k5Nje<i2
+IZ5gn=kfKi5?mmI=F<[PAF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739929985
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/hc595_control.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/hc595_control.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1739931237.155000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/hc595_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/hc595_control.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vseg_static
+R1
+!i10b 1
+!s100 FlCQ02PlPfE?[:[4IQ4g03
+IN5cNT5jf7ofF1Un3gC;oL1
+R2
+R0
+w1739927709
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/seg_static.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/seg_static.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739931237.232000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/seg_static.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/seg_static.v|
+!i113 0
+R4
+R5
+vSimulation_seg_static
+R1
+!i10b 1
+!s100 HfjDN9KfVI8cmi@IBX]Fc3
+ISa?h381U=<5E0Fe8Oz_nU2
+R2
+R0
+w1739928229
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation/Simulation_seg_static.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation/Simulation_seg_static.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1739931237.394000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation/Simulation_seg_static.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation/Simulation_seg_static.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/Quartus Project/../Simulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@simulation_seg_static
+vStatic_Digital_Tube
+R1
+!i10b 1
+!s100 <[7mN5Jlc44C29X[8[M0e1
+IV3A7PgmDzU<Uleg;El0J?2
+R2
+R0
+w1739930156
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/Static_Digital_Tube.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/Static_Digital_Tube.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739931237.308000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/Static_Digital_Tube.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250218-Static-Digital-Tube/RTL/Static_Digital_Tube.v|
+!i113 0
+R4
+R5
+n@static_@digital_@tube

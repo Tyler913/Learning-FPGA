@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Feb 18 21:19:05 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : Static_Digital_Tube
+Top-level Entity Name : Static_Digital_Tube
+Family : Cyclone IV E
+Total logic elements : 78
+    Total combinational functions : 77
+    Dedicated logic registers : 45
+Total registers : 45
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
