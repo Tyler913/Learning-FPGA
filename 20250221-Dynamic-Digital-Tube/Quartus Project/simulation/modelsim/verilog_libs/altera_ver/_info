@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/simulation/modelsim
 valt_bidir_buf
-Z1 !s110 1740191450
+Z1 !s110 1740250446
 !i10b 1
 !s100 a6?6cHeC]_[b_;=i8O1hN3
 IW^I:72nB9fVl54W1zzdOo1
@@ -23,7 +23,7 @@ Z6 OL;L;10.4;61
 r1
 !s85 0
 31
-Z7 !s108 1740191450.780000
+Z7 !s108 1740250446.330000
 Z8 !s107 d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_primitives.v|
 !i113 0

@@ -1,5 +1,5 @@
 Assembler report for Dynamic_Digital_Tube
-Fri Feb 21 21:29:54 2025
+Sat Feb 22 16:13:26 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -9,9 +9,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   1. Legal Notice
   2. Assembler Summary
   3. Assembler Settings
-  4. Assembler Generated Files
-  5. Assembler Device Options: D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/output_files/Dynamic_Digital_Tube.sof
-  6. Assembler Messages
+  4. Assembler Messages
 
 
 
@@ -37,9 +35,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Feb 21 21:29:54 2025 ;
+; Assembler Status      ; Successful - Sat Feb 22 16:13:26 2025 ;
 ; Revision Name         ; Dynamic_Digital_Tube                  ;
-; Top-level Entity Name ; Data_Generation                       ;
+; Top-level Entity Name ; Dynamic_Digital_Tube                  ;
 ; Family                ; Cyclone IV E                          ;
 ; Device                ; EP4CE10F17C8                          ;
 +-----------------------+---------------------------------------+
@@ -77,40 +75,19 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                                        ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                                        ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/output_files/Dynamic_Digital_Tube.sof ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/output_files/Dynamic_Digital_Tube.sof ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                                                   ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Device         ; EP4CE10F17C8                                                                                                                              ;
-; JTAG usercode  ; 0x00090330                                                                                                                                ;
-; Checksum       ; 0x00090330                                                                                                                                ;
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Feb 21 21:29:53 2025
+    Info: Processing started: Sat Feb 22 16:13:26 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Dynamic_Digital_Tube -c Dynamic_Digital_Tube
-Info (115031): Writing out detailed assembly data for power analysis
-Info (115030): Assembler is generating device programming files
-Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4554 megabytes
-    Info: Processing ended: Fri Feb 21 21:29:54 2025
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Warning (292011): Can't generate programming files because you are currently using the Quartus II software in Evaluation Mode
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4534 megabytes
+    Info: Processing ended: Sat Feb 22 16:13:26 2025
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

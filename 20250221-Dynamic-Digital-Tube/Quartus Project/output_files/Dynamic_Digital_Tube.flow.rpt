@@ -1,5 +1,5 @@
 Flow report for Dynamic_Digital_Tube
-Fri Feb 21 21:29:58 2025
+Sat Feb 22 16:13:30 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Fri Feb 21 21:29:58 2025            ;
+; Flow Status                        ; Successful - Sat Feb 22 16:13:30 2025            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; Dynamic_Digital_Tube                             ;
-; Top-level Entity Name              ; Data_Generation                                  ;
+; Top-level Entity Name              ; Dynamic_Digital_Tube                             ;
 ; Family                             ; Cyclone IV E                                     ;
 ; Device                             ; EP4CE10F17C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 67 / 10,320 ( < 1 % )                            ;
-;     Total combinational functions  ; 67 / 10,320 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 45 / 10,320 ( < 1 % )                            ;
-; Total registers                    ; 45                                               ;
-; Total pins                         ; 30 / 180 ( 17 % )                                ;
+; Total logic elements               ; 281 / 10,320 ( 3 % )                             ;
+;     Total combinational functions  ; 267 / 10,320 ( 3 % )                             ;
+;     Dedicated logic registers      ; 185 / 10,320 ( 2 % )                             ;
+; Total registers                    ; 185                                              ;
+; Total pins                         ; 6 / 180 ( 3 % )                                  ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                              ;
 ; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                                   ;
@@ -64,32 +64,48 @@ applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 02/21/2025 21:29:46  ;
+; Start date & time ; 02/22/2025 16:13:18  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; Dynamic_Digital_Tube ;
 +-------------------+----------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                      ;
-+-------------------------------------+---------------------------------------+----------------------+-----------------+----------------+
-; Assignment Name                     ; Value                                 ; Default Value        ; Entity Name     ; Section Id     ;
-+-------------------------------------+---------------------------------------+----------------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 71205093825643.174019138622336        ; --                   ; --              ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --                   ; --              ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim (Verilog)                    ; <None>               ; --              ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                  ; --                   ; --              ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --                   ; --              ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --                   ; --              ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                  ; --                   ; --              ; --             ;
-; PARTITION_COLOR                     ; 16764057                              ; --                   ; Data_Generation ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --                   ; Data_Generation ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --                   ; Data_Generation ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --                   ; --              ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --                   ; --              ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --                   ; --              ; --             ;
-; TOP_LEVEL_ENTITY                    ; Data_Generation                       ; Dynamic_Digital_Tube ; --              ; --             ;
-+-------------------------------------+---------------------------------------+----------------------+-----------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                             ;
++--------------------------------------+--------------------------------------------+---------------+-------------+----------------------------+
+; Assignment Name                      ; Value                                      ; Default Value ; Entity Name ; Section Id                 ;
++--------------------------------------+--------------------------------------------+---------------+-------------+----------------------------+
+; COMPILER_SIGNATURE_ID                ; 71205093825643.174025879816988             ; --            ; --          ; --                         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_Data_Generation ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_BCD_8421        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_Segment_Dynamic ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Simulation_Segment_Dynamic                 ; --            ; --          ; eda_simulation             ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                ; --            ; --          ; eda_simulation             ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                         ; <None>        ; --          ; --                         ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                            ; --            ; --          ; eda_simulation             ;
+; EDA_TEST_BENCH_FILE                  ; ../Simulation/Simulation_Data_Generation.v ; --            ; --          ; Simulation_Data_Generation ;
+; EDA_TEST_BENCH_FILE                  ; ../Simulation/Simulation_BCD_8421.v        ; --            ; --          ; Simulation_BCD_8421        ;
+; EDA_TEST_BENCH_FILE                  ; ../Simulation/Simulation_Segment_Dynamic.v ; --            ; --          ; Simulation_Segment_Dynamic ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Simulation_Data_Generation                 ; --            ; --          ; Simulation_Data_Generation ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Simulation_BCD_8421                        ; --            ; --          ; Simulation_BCD_8421        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Simulation_Segment_Dynamic                 ; --            ; --          ; Simulation_Segment_Dynamic ;
+; EDA_TEST_BENCH_NAME                  ; Simulation_Data_Generation                 ; --            ; --          ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; Simulation_BCD_8421                        ; --            ; --          ; eda_simulation             ;
+; EDA_TEST_BENCH_NAME                  ; Simulation_Segment_Dynamic                 ; --            ; --          ; eda_simulation             ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 ms                                       ; --            ; --          ; Simulation_Data_Generation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 ms                                       ; --            ; --          ; Simulation_BCD_8421        ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 1 ms                                       ; --            ; --          ; Simulation_Segment_Dynamic ;
+; EDA_TIME_SCALE                       ; 1 ps                                       ; --            ; --          ; eda_simulation             ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                         ; --            ; --          ; --                         ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                          ; --            ; --          ; --                         ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                       ; --            ; --          ; --                         ;
+; PARTITION_COLOR                      ; 16764057                                   ; --            ; --          ; Top                        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                      ; --            ; --          ; Top                        ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                     ; --            ; --          ; Top                        ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                        ; --            ; --          ; --                         ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW      ; --            ; --          ; --                         ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                               ; --            ; --          ; --                         ;
++--------------------------------------+--------------------------------------------+---------------+-------------+----------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -97,12 +113,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 5999 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4554 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4716 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4526 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 5975 MB             ; 00:00:06                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4522 MB             ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4720 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

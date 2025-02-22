@@ -33,11 +33,12 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL {D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v}
+vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL {D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Segment_Dynamic.v}
+vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL {D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/BCD_8421.v}
 
-vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus\ Project/../Simulation {D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Data_Generation.v}
+vlog -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus\ Project/../Simulation {D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Segment_Dynamic.v}
 
-vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Simulation_Data_Generation
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Simulation_Segment_Dynamic
 
 add wave *
 view structure

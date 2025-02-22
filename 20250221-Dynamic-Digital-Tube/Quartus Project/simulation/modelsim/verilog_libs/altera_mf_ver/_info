@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/simulation/modelsim
 va_graycounter
-Z1 !s110 1740191452
+Z1 !s110 1740250447
 !i10b 1
 !s100 71oBVO_I3fT3_[e`hZgOY0
 II8:3A@G]am^GMXG:gfCk91
@@ -23,7 +23,7 @@ Z6 OL;L;10.4;61
 r1
 !s85 0
 31
-Z7 !s108 1740191451.810000
+Z7 !s108 1740250447.202000
 Z8 !s107 d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/applications/quartusii_v13.0/quartus/eda/sim_lib/altera_mf.v|
 !i113 0
@@ -329,7 +329,7 @@ R9
 !i113 0
 R10
 vALTERA_DEVICE_FAMILIES
-Z11 !s110 1740191451
+R1
 !i10b 1
 !s100 d5ZlF]=XzZYCoXnUSE=O_2
 IY7bUOdQ3KJ_=l^TMLHTXM3
@@ -350,7 +350,7 @@ R9
 R10
 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
 vALTERA_MF_HINT_EVALUATION
-R11
+R1
 !i10b 1
 !s100 a=Fe>V8[JB19QF`<JB2a80
 IdCU@z66c<?9K9<Ob9SH^K1
@@ -371,7 +371,7 @@ R9
 R10
 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
 vALTERA_MF_MEMORY_INITIALIZATION
-R11
+R1
 !i10b 1
 !s100 1;fUiNdohROUTkB`ZS<H92
 IY1A`b=`zJEGI>mCW@>lXL3
@@ -712,7 +712,7 @@ R9
 !i113 0
 R10
 varm_m_cntr
-R11
+R1
 !i10b 1
 !s100 =ak:9`zmA2AQmAczL2kfY2
 I<IglIYm7[^F65LHCPSi7j1
@@ -732,7 +732,7 @@ R9
 !i113 0
 R10
 varm_n_cntr
-R11
+R1
 !i10b 1
 !s100 Sh@NR<3`6?XGY`dez^7`E1
 IBRV0I56a@TIh^^mR5YT4D3
@@ -752,7 +752,7 @@ R9
 !i113 0
 R10
 varm_scale_cntr
-R11
+R1
 !i10b 1
 !s100 N:g9PJ2VIOohed^F^LgRo3
 IS[eBH8dT^Ba0lQL]IJBh52
@@ -772,7 +772,7 @@ R9
 !i113 0
 R10
 vcda_m_cntr
-R11
+R1
 !i10b 1
 !s100 nP:MOLC?iM:JAgTnE7L<Z0
 I;RkN5JP;;N2i1MZiW>4KT1
@@ -792,7 +792,7 @@ R9
 !i113 0
 R10
 vcda_n_cntr
-R11
+R1
 !i10b 1
 !s100 `8Si5n;;1jD1A2XBgJ3SO2
 I<=DCc7c6Ygb5nzPmYVeDG1
@@ -812,7 +812,7 @@ R9
 !i113 0
 R10
 vcda_scale_cntr
-R11
+R1
 !i10b 1
 !s100 NfF`0J?9bjW]1RUJZOmhS2
 ICb]P0Jl9V^3KeTDWKaCSK1
@@ -832,7 +832,7 @@ R9
 !i113 0
 R10
 vcycloneiiigl_post_divider
-R11
+R1
 !i10b 1
 !s100 fL<X^Zl?7P^O:b6^;C;dS0
 IVWF`0gjV[UjbFe6E9g<Ea0
@@ -992,7 +992,7 @@ R9
 !i113 0
 R10
 vdffp
-R11
+R1
 !i10b 1
 !s100 G6mm8R]k47h75ZGLCN67Y1
 Ib[LVdcIT9bzXkefB>`BL^0
@@ -1092,7 +1092,7 @@ R9
 !i113 0
 R10
 vlcell
-R11
+R1
 !i10b 1
 !s100 bennFdYA;E0lM[zHEL7e`1
 I`CidjN0kP=BeQ`:n2i_5h3
@@ -1112,7 +1112,7 @@ R9
 !i113 0
 R10
 vMF_cycloneiii_pll
-R11
+R1
 !i10b 1
 !s100 [AX?S`E_o9M9U>Be7EDm=1
 IQ@OPL9Z=cHjTFZgAgef1V3
@@ -1133,7 +1133,7 @@ R9
 R10
 n@m@f_cycloneiii_pll
 vMF_cycloneiiigl_m_cntr
-R11
+R1
 !i10b 1
 !s100 S<8E]TS?=[hClcnoO53=N0
 INJ`Xc?2g8@;AUFB1RLHi;0
@@ -1154,7 +1154,7 @@ R9
 R10
 n@m@f_cycloneiiigl_m_cntr
 vMF_cycloneiiigl_n_cntr
-R11
+R1
 !i10b 1
 !s100 3F3Qfz9PUALG_V17`h;=51
 IMO6HH6NYQ1Z=Z_bCYQ:=T0
@@ -1175,7 +1175,7 @@ R9
 R10
 n@m@f_cycloneiiigl_n_cntr
 vMF_cycloneiiigl_pll
-R11
+R1
 !i10b 1
 !s100 OBjfDbP1fWCV`Tn2FcflX2
 IHmagZL?zg`h?fId8:R8h01
@@ -1196,7 +1196,7 @@ R9
 R10
 n@m@f_cycloneiiigl_pll
 vMF_cycloneiiigl_scale_cntr
-R11
+R1
 !i10b 1
 !s100 ZPf4iV@U6T7Z6gdPmjMc;0
 IDB`C=McbN7J_`zSl3l=9[2
@@ -1217,7 +1217,7 @@ R9
 R10
 n@m@f_cycloneiiigl_scale_cntr
 vMF_pll_reg
-R11
+R1
 !i10b 1
 !s100 bkd5emU]?ZXFo;4AAWDiV1
 IAPUBD5j1=hzDR@ocMIiU<3
@@ -1238,7 +1238,7 @@ R9
 R10
 n@m@f_pll_reg
 vMF_stratix_pll
-R11
+R1
 !i10b 1
 !s100 ?97gf8aa2L4jjGE<HX0PU3
 IPHAlceZ:6oRlIWNJ]ZcXz0
@@ -1259,7 +1259,7 @@ R9
 R10
 n@m@f_stratix_pll
 vMF_stratixii_pll
-R11
+R1
 !i10b 1
 !s100 j2bTNhBR7KKL>gmGdfnh[0
 I?mZA6?6@OH8`OD]@MKbMO0
@@ -1280,7 +1280,7 @@ R9
 R10
 n@m@f_stratixii_pll
 vMF_stratixiii_pll
-R11
+R1
 !i10b 1
 !s100 K1lIU0LfYeG22=[THjOV:0
 IYB:5Bn=an?Oa7nifh6h<=0
@@ -1321,7 +1321,7 @@ R9
 !i113 0
 R10
 vpll_iobuf
-R11
+R1
 !i10b 1
 !s100 H6lj`HU47o?J]@n_L>PJ80
 IRHjzNnloD1PnO_dTQ<oke0
@@ -1621,7 +1621,7 @@ R9
 !i113 0
 R10
 vstx_m_cntr
-R11
+R1
 !i10b 1
 !s100 dHo]XV>>UR5ZRZTDKcHPZ3
 I[RKGe:TG8z<E6KSaAPS842
@@ -1641,7 +1641,7 @@ R9
 !i113 0
 R10
 vstx_n_cntr
-R11
+R1
 !i10b 1
 !s100 ^DCM5Q9fBAKMDgfj9gQgH3
 IDkW7Z7D9>gLeHM7DSK_0K2
@@ -1661,7 +1661,7 @@ R9
 !i113 0
 R10
 vstx_scale_cntr
-R11
+R1
 !i10b 1
 !s100 6iaJC^d6gXFlmQmzROjDB1
 IZW4MlnKMUcJbBlQUg7E4G2
@@ -1681,7 +1681,7 @@ R9
 !i113 0
 R10
 vttn_m_cntr
-R11
+R1
 !i10b 1
 !s100 USAWJ4L@VT=P7@Meg_@_`2
 IYY=7MEH_iIz7?4XIg9ebm2
@@ -1701,7 +1701,7 @@ R9
 !i113 0
 R10
 vttn_n_cntr
-R11
+R1
 !i10b 1
 !s100 FiFF4Q7f<QfBMh5n3=eDa3
 IEz0fZX<0f<halefA=^KmQ3
@@ -1721,7 +1721,7 @@ R9
 !i113 0
 R10
 vttn_scale_cntr
-R11
+R1
 !i10b 1
 !s100 M;Q5Wcf@M6]hh>ClXNNkQ0
 IWhUUkGg;GCN<c7:CIg<7T3

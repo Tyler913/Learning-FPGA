@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/simulation/modelsim
 vio_buf_opdrn
-Z1 !s110 1740191451
+Z1 !s110 1740250446
 !i10b 1
 !s100 =^<AH`I:TA`[9YUe=h1;_1
 IJ3VPhfJZH7gcUa5b9f;G_1
@@ -23,7 +23,7 @@ Z6 OL;L;10.4;61
 r1
 !s85 0
 31
-Z7 !s108 1740191451.514000
+Z7 !s108 1740250446.965000
 Z8 !s107 d:/applications/quartusii_v13.0/quartus/eda/sim_lib/sgate.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|d:/applications/quartusii_v13.0/quartus/eda/sim_lib/sgate.v|
 !i113 0
@@ -109,7 +109,7 @@ R9
 !i113 0
 R10
 voper_bus_mux
-R1
+Z11 !s110 1740250447
 !i10b 1
 !s100 83iY7?J9JgD`=KN3I^];33
 I?j=eRzI9I]J<LNg@0EjNQ2
@@ -129,7 +129,7 @@ R9
 !i113 0
 R10
 voper_decoder
-R1
+R11
 !i10b 1
 !s100 BhU]JWh4CAH3f[ALIgD?91
 INN^`>l>zhaP^5C@>MH_8M1
@@ -169,7 +169,7 @@ R9
 !i113 0
 R10
 voper_latch
-R1
+R11
 !i10b 1
 !s100 6TkzBj8lWoX[Wk_Oek;zG0
 IA4il@oLLmUm<SQO^[O;e<3
@@ -189,7 +189,7 @@ R9
 !i113 0
 R10
 voper_left_shift
-R1
+R11
 !i10b 1
 !s100 GzbHDnkb>SB<:N13UI28Z2
 Im39_GGmi5CSZEJ^fjb8dz1
@@ -209,7 +209,7 @@ R9
 !i113 0
 R10
 voper_less_than
-R1
+R11
 !i10b 1
 !s100 mkW0GJN@;6C<2gM?VlHk40
 IaRZ5zEHHWa[J>k5zh9zW43
@@ -229,7 +229,7 @@ R9
 !i113 0
 R10
 voper_mod
-R1
+R11
 !i10b 1
 !s100 KY?eBB<PZPYJ_og7>a4lz1
 IgkXHTJIFgT<89J>keCC_L2
@@ -269,7 +269,7 @@ R9
 !i113 0
 R10
 voper_mux
-R1
+R11
 !i10b 1
 !s100 1BV^<NLG6]@XcIB4ATlBY2
 Ib^4oezLdVS4g`VGOYVJJZ1
@@ -289,7 +289,7 @@ R9
 !i113 0
 R10
 voper_right_shift
-R1
+R11
 !i10b 1
 !s100 0GY5J>n8g<mQmG_1Ph1<l2
 Ide11<IM]ma2Z3inbkclM71
@@ -309,7 +309,7 @@ R9
 !i113 0
 R10
 voper_rotate_left
-R1
+R11
 !i10b 1
 !s100 <LHW[F_:n>zBeU4k;`Kfc0
 IojHUl;@C@i5I:3HFPG;2J1
@@ -329,7 +329,7 @@ R9
 !i113 0
 R10
 voper_rotate_right
-R1
+R11
 !i10b 1
 !s100 0odf;mlW;hE0G1:GS066I2
 Ik[JKQ;fD4bBQT=_FFozeW1
@@ -349,7 +349,7 @@ R9
 !i113 0
 R10
 voper_selector
-R1
+R11
 !i10b 1
 !s100 W1R9=N?MT:3kj1R0<;l[F0
 ISXA33ZfH<E[8D=RC^U^XX0

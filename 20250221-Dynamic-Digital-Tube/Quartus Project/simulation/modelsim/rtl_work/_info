@@ -8,55 +8,47 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/simulation/modelsim
-T_opt
-!s110 1740191632
-V;h8FoUb`UMMCSNeJj3iE>1
-04 26 4 work Simulation_Data_Generation fast 0
-=3-40c2ba52dc6b-67b93790-208-1130
-o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
-n@_opt
-OL;O;10.4;61
 vData_Generation
-!s110 1740191628
+Z1 !s110 1740250448
 !i10b 1
 !s100 NS[V?DCF>W=0fh6=3mI<[3
 I_eUGQ>[32=:jQ7X5=X9U]0
-Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1740191620
+w1740191752
 8D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v
 FD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v
 L0 1
-Z2 OL;L;10.4;61
+Z3 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1740191628.761000
+!s108 1740250448.667000
 !s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL/Data_Generation.v|
 !i113 0
-Z3 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 !s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 n@data_@generation
-vSimulation_Data_Generation
-!s110 1740191453
-!i10b 1
-!s100 J3B75PEEO^]6MUnN>zOzi2
-I07@4WPzJIk7IFXA6E5RE@1
+vSimulation_BCD_8421
 R1
-R0
-w1740191367
-8D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Data_Generation.v
-FD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Data_Generation.v
-L0 3
+!i10b 1
+!s100 ;BDO=i>LL6gKcYOU_W_>j3
+I[^fgPMeHRi`H2cDNifY^f3
 R2
+R0
+w1740250133
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_BCD_8421.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_BCD_8421.v
+L0 3
+R3
 r1
 !s85 0
 31
-!s108 1740191453.391000
-!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Data_Generation.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_Data_Generation.v|
+!s108 1740250448.733000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_BCD_8421.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation/Simulation_BCD_8421.v|
 !i113 0
-R3
+R4
 !s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/../Simulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-n@simulation_@data_@generation
+n@simulation_@b@c@d_8421
