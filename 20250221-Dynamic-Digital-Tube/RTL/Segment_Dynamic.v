@@ -98,7 +98,7 @@ always @(posedge system_clock or negedge system_reset_n) begin
     else if ((count_selection == 3 'd 5) && (flag_1ms == 1 'b 1)) begin
         count_selection <= 3 'd 0;
     end
-    else if (flag_1ms <= 1 'b 1) begin
+    else if (flag_1ms == 1 'b 1) begin
         count_selection <= count_selection + 3 'd 1;
     end
     else begin

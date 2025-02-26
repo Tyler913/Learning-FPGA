@@ -1,5 +1,5 @@
 Fitter report for Dynamic_Digital_Tube
-Sat Feb 22 16:13:25 2025
+Tue Feb 25 20:40:20 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -68,17 +68,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                        ;
 +------------------------------------+--------------------------------------------------+
-; Fitter Status                      ; Successful - Sat Feb 22 16:13:25 2025            ;
+; Fitter Status                      ; Successful - Tue Feb 25 20:40:20 2025            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; Dynamic_Digital_Tube                             ;
 ; Top-level Entity Name              ; Dynamic_Digital_Tube                             ;
 ; Family                             ; Cyclone IV E                                     ;
 ; Device                             ; EP4CE10F17C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 281 / 10,320 ( 3 % )                             ;
-;     Total combinational functions  ; 267 / 10,320 ( 3 % )                             ;
-;     Dedicated logic registers      ; 185 / 10,320 ( 2 % )                             ;
-; Total registers                    ; 185                                              ;
+; Total logic elements               ; 285 / 10,320 ( 3 % )                             ;
+;     Total combinational functions  ; 268 / 10,320 ( 3 % )                             ;
+;     Dedicated logic registers      ; 186 / 10,320 ( 2 % )                             ;
+; Total registers                    ; 186                                              ;
 ; Total pins                         ; 6 / 180 ( 3 % )                                  ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                              ;
@@ -183,8 +183,8 @@ applicable agreement for further details.
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 476 ( 0.00 % )     ;
-;     -- Achieved     ; 0 / 476 ( 0.00 % )     ;
+;     -- Requested    ; 0 / 478 ( 0.00 % )     ;
+;     -- Achieved     ; 0 / 478 ( 0.00 % )     ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -207,7 +207,7 @@ applicable agreement for further details.
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 466     ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 468     ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 10      ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -223,26 +223,26 @@ The pin-out file can be found in D:/TylerHong/Development/Learn/Learning-FPGA/20
 +---------------------------------------------+----------------------+
 ; Resource                                    ; Usage                ;
 +---------------------------------------------+----------------------+
-; Total logic elements                        ; 281 / 10,320 ( 3 % ) ;
-;     -- Combinational with no register       ; 96                   ;
-;     -- Register only                        ; 14                   ;
-;     -- Combinational with a register        ; 171                  ;
+; Total logic elements                        ; 285 / 10,320 ( 3 % ) ;
+;     -- Combinational with no register       ; 99                   ;
+;     -- Register only                        ; 17                   ;
+;     -- Combinational with a register        ; 169                  ;
 ;                                             ;                      ;
 ; Logic element usage by number of LUT inputs ;                      ;
 ;     -- 4 input functions                    ; 126                  ;
 ;     -- 3 input functions                    ; 61                   ;
-;     -- <=2 input functions                  ; 80                   ;
-;     -- Register only                        ; 14                   ;
+;     -- <=2 input functions                  ; 81                   ;
+;     -- Register only                        ; 17                   ;
 ;                                             ;                      ;
 ; Logic elements by mode                      ;                      ;
-;     -- normal mode                          ; 209                  ;
+;     -- normal mode                          ; 210                  ;
 ;     -- arithmetic mode                      ; 58                   ;
 ;                                             ;                      ;
-; Total registers*                            ; 185 / 11,172 ( 2 % ) ;
-;     -- Dedicated logic registers            ; 185 / 10,320 ( 2 % ) ;
+; Total registers*                            ; 186 / 11,172 ( 2 % ) ;
+;     -- Dedicated logic registers            ; 186 / 10,320 ( 2 % ) ;
 ;     -- I/O registers                        ; 0 / 852 ( 0 % )      ;
 ;                                             ;                      ;
-; Total LABs:  partially or completely used   ; 22 / 645 ( 3 % )     ;
+; Total LABs:  partially or completely used   ; 21 / 645 ( 3 % )     ;
 ; Virtual pins                                ; 0                    ;
 ; I/O pins                                    ; 6 / 180 ( 3 % )      ;
 ;     -- Clock pins                           ; 2 / 3 ( 67 % )       ;
@@ -261,10 +261,10 @@ The pin-out file can be found in D:/TylerHong/Development/Learn/Learning-FPGA/20
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )        ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%         ;
 ; Peak interconnect usage (total/H/V)         ; 1% / 1% / 1%         ;
-; Maximum fan-out                             ; 185                  ;
+; Maximum fan-out                             ; 186                  ;
 ; Highest non-global fan-out                  ; 47                   ;
-; Total fan-out                               ; 1514                 ;
-; Average fan-out                             ; 3.09                 ;
+; Total fan-out                               ; 1522                 ;
+; Average fan-out                             ; 3.07                 ;
 +---------------------------------------------+----------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -277,25 +277,25 @@ The pin-out file can be found in D:/TylerHong/Development/Learn/Learning-FPGA/20
 +---------------------------------------------+---------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                 ; Low                            ;
 ;                                             ;                     ;                                ;
-; Total logic elements                        ; 281 / 10320 ( 3 % ) ; 0 / 10320 ( 0 % )              ;
-;     -- Combinational with no register       ; 96                  ; 0                              ;
-;     -- Register only                        ; 14                  ; 0                              ;
-;     -- Combinational with a register        ; 171                 ; 0                              ;
+; Total logic elements                        ; 285 / 10320 ( 3 % ) ; 0 / 10320 ( 0 % )              ;
+;     -- Combinational with no register       ; 99                  ; 0                              ;
+;     -- Register only                        ; 17                  ; 0                              ;
+;     -- Combinational with a register        ; 169                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic element usage by number of LUT inputs ;                     ;                                ;
 ;     -- 4 input functions                    ; 126                 ; 0                              ;
 ;     -- 3 input functions                    ; 61                  ; 0                              ;
-;     -- <=2 input functions                  ; 80                  ; 0                              ;
-;     -- Register only                        ; 14                  ; 0                              ;
+;     -- <=2 input functions                  ; 81                  ; 0                              ;
+;     -- Register only                        ; 17                  ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic elements by mode                      ;                     ;                                ;
-;     -- normal mode                          ; 209                 ; 0                              ;
+;     -- normal mode                          ; 210                 ; 0                              ;
 ;     -- arithmetic mode                      ; 58                  ; 0                              ;
 ;                                             ;                     ;                                ;
-; Total registers                             ; 185                 ; 0                              ;
-;     -- Dedicated logic registers            ; 185 / 10320 ( 2 % ) ; 0 / 10320 ( 0 % )              ;
+; Total registers                             ; 186                 ; 0                              ;
+;     -- Dedicated logic registers            ; 186 / 10320 ( 2 % ) ; 0 / 10320 ( 0 % )              ;
 ;                                             ;                     ;                                ;
-; Total LABs:  partially or completely used   ; 22 / 645 ( 3 % )    ; 0 / 645 ( 0 % )                ;
+; Total LABs:  partially or completely used   ; 21 / 645 ( 3 % )    ; 0 / 645 ( 0 % )                ;
 ;                                             ;                     ;                                ;
 ; Virtual pins                                ; 0                   ; 0                              ;
 ; I/O pins                                    ; 6                   ; 0                              ;
@@ -311,8 +311,8 @@ The pin-out file can be found in D:/TylerHong/Development/Learn/Learning-FPGA/20
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 1509                ; 5                              ;
-;     -- Registered Connections               ; 566                 ; 0                              ;
+;     -- Total Connections                    ; 1517                ; 5                              ;
+;     -- Registered Connections               ; 568                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
 ;     -- Top                                  ; 0                   ; 0                              ;
@@ -344,8 +344,8 @@ The pin-out file can be found in D:/TylerHong/Development/Learn/Learning-FPGA/20
 +----------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 ; Name           ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ;
 +----------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
-; system_clock   ; E1    ; 1        ; 0            ; 11           ; 7            ; 185                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; system_reset_n ; M15   ; 5        ; 34           ; 12           ; 14           ; 185                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; system_clock   ; E1    ; 1        ; 0            ; 11           ; 7            ; 186                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; system_reset_n ; M15   ; 5        ; 34           ; 12           ; 14           ; 186                   ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 +----------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 
 
@@ -669,11 +669,11 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                            ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                                                        ; Library Name ;
 +-------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |Dynamic_Digital_Tube                                 ; 281 (0)     ; 185 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 6    ; 0            ; 96 (0)       ; 14 (0)            ; 171 (0)          ; |Dynamic_Digital_Tube                                                                                                                      ; work         ;
+; |Dynamic_Digital_Tube                                 ; 285 (0)     ; 186 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 6    ; 0            ; 99 (0)       ; 17 (0)            ; 169 (0)          ; |Dynamic_Digital_Tube                                                                                                                      ; work         ;
 ;    |Data_Generation:Data_Generation_Instance|         ; 72 (72)     ; 41 (41)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 31 (31)      ; 0 (0)             ; 41 (41)          ; |Dynamic_Digital_Tube|Data_Generation:Data_Generation_Instance                                                                             ; work         ;
-;    |Segment_595_Dynamic:Segment_595_Dynamic_Instance| ; 209 (0)     ; 144 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 65 (0)       ; 14 (0)            ; 130 (0)          ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance                                                                     ; work         ;
-;       |Segment_Dynamic:Segment_Dynamic_Instance|      ; 195 (90)    ; 136 (64)                  ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 57 (22)      ; 14 (2)            ; 124 (74)         ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance                            ; work         ;
-;          |BDC_8421:BDC_8421_Instance|                 ; 109 (109)   ; 72 (72)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 35 (35)      ; 12 (12)           ; 62 (62)          ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance ; work         ;
+;    |Segment_595_Dynamic:Segment_595_Dynamic_Instance| ; 213 (0)     ; 145 (0)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 68 (0)       ; 17 (0)            ; 128 (0)          ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance                                                                     ; work         ;
+;       |Segment_Dynamic:Segment_Dynamic_Instance|      ; 199 (91)    ; 137 (65)                  ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 60 (24)      ; 17 (4)            ; 122 (73)         ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance                            ; work         ;
+;          |BDC_8421:BDC_8421_Instance|                 ; 109 (109)   ; 72 (72)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 36 (36)      ; 13 (13)           ; 60 (60)          ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance ; work         ;
 ;       |hc595_control:hc595_control_Instance|          ; 20 (20)     ; 8 (8)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 12 (12)          ; |Dynamic_Digital_Tube|Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance                                ; work         ;
 +-------------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -708,22 +708,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name                                                                                                                                   ; Location           ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------------------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|Equal1~0          ; LCCOMB_X11_Y18_N8  ; 27      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[14]~67 ; LCCOMB_X11_Y18_N6  ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[23]~36 ; LCCOMB_X10_Y19_N14 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[27]~32 ; LCCOMB_X13_Y18_N6  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[29]~5  ; LCCOMB_X12_Y18_N22 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[33]~6  ; LCCOMB_X13_Y18_N4  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[39]~11 ; LCCOMB_X12_Y18_N12 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[43]~15 ; LCCOMB_X10_Y18_N28 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|always5~0                                    ; LCCOMB_X12_Y17_N10 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~10                             ; LCCOMB_X12_Y19_N6  ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~13                             ; LCCOMB_X11_Y19_N4  ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~17                             ; LCCOMB_X14_Y19_N20 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|flag_1ms                                     ; FF_X13_Y16_N1      ; 10      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[0]                                     ; FF_X11_Y16_N1      ; 43      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; system_clock                                                                                                                           ; PIN_E1             ; 185     ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
-; system_reset_n                                                                                                                         ; PIN_M15            ; 185     ; Async. clear ; yes    ; Global Clock         ; GCLK9            ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|Equal1~0          ; LCCOMB_X23_Y15_N24 ; 27      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[14]~67 ; LCCOMB_X24_Y15_N14 ; 19      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[23]~36 ; LCCOMB_X25_Y16_N14 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[27]~32 ; LCCOMB_X25_Y15_N26 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[29]~5  ; LCCOMB_X22_Y15_N26 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[33]~6  ; LCCOMB_X23_Y15_N10 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[39]~11 ; LCCOMB_X26_Y15_N20 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[43]~15 ; LCCOMB_X23_Y15_N12 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|always5~0                                    ; LCCOMB_X23_Y16_N6  ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~10                             ; LCCOMB_X22_Y17_N24 ; 12      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~13                             ; LCCOMB_X21_Y17_N10 ; 8       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~17                             ; LCCOMB_X23_Y17_N16 ; 4       ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|flag_1ms                                     ; FF_X23_Y18_N9      ; 11      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[0]                                     ; FF_X25_Y18_N9      ; 32      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; system_clock                                                                                                                           ; PIN_E1             ; 186     ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
+; system_reset_n                                                                                                                         ; PIN_M15            ; 186     ; Async. clear ; yes    ; Global Clock         ; GCLK9            ; --                        ;
 +----------------------------------------------------------------------------------------------------------------------------------------+--------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -732,8 +732,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name           ; Location ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; system_clock   ; PIN_E1   ; 185     ; 11                                   ; Global Clock         ; GCLK2            ; --                        ;
-; system_reset_n ; PIN_M15  ; 185     ; 0                                    ; Global Clock         ; GCLK9            ; --                        ;
+; system_clock   ; PIN_E1   ; 186     ; 27                                   ; Global Clock         ; GCLK2            ; --                        ;
+; system_reset_n ; PIN_M15  ; 186     ; 0                                    ; Global Clock         ; GCLK9            ; --                        ;
 +----------------+----------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -743,14 +743,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                                                                                     ; Fan-Out ;
 +------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|Equal0~1            ; 47      ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[0]                                       ; 43      ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[0]                                       ; 32      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|Equal1~0            ; 27      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|always1~0           ; 24      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift[14]~67   ; 19      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|count_selection[1]                             ; 15      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register~10                               ; 12      ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|count_selection[0]                             ; 12      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count[1]                                           ; 12      ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|flag_1ms                                       ; 10      ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|flag_1ms                                       ; 11      ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[3]                                       ; 10      ;
 ; Data_Generation:Data_Generation_Instance|Equal0~6                                                                                        ; 9       ;
 ; Data_Generation:Data_Generation_Instance|data[0]                                                                                         ; 9       ;
@@ -911,6 +912,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|stcp                                               ; 2       ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|ds                                                 ; 2       ;
 ; Data_Generation:Data_Generation_Instance|segment_enable~feeder                                                                           ; 1       ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|count_selection[0]~2                           ; 1       ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|hc595_control:hc595_control_Instance|count_bit[0]~3                                     ; 1       ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift~66       ; 1       ;
 ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|data_shift~65       ; 1       ;
@@ -1256,147 +1258,158 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 286 / 32,401 ( < 1 % ) ;
-; C16 interconnects           ; 2 / 1,326 ( < 1 % )    ;
-; C4 interconnects            ; 90 / 21,816 ( < 1 % )  ;
-; Direct links                ; 106 / 32,401 ( < 1 % ) ;
+; Block interconnects         ; 287 / 32,401 ( < 1 % ) ;
+; C16 interconnects           ; 3 / 1,326 ( < 1 % )    ;
+; C4 interconnects            ; 96 / 21,816 ( < 1 % )  ;
+; Direct links                ; 114 / 32,401 ( < 1 % ) ;
 ; Global clocks               ; 2 / 10 ( 20 % )        ;
-; Local interconnects         ; 218 / 10,320 ( 2 % )   ;
+; Local interconnects         ; 225 / 10,320 ( 2 % )   ;
 ; R24 interconnects           ; 3 / 1,289 ( < 1 % )    ;
-; R4 interconnects            ; 113 / 28,186 ( < 1 % ) ;
+; R4 interconnects            ; 92 / 28,186 ( < 1 % )  ;
 +-----------------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.77) ; Number of LABs  (Total = 22) ;
+; Number of Logic Elements  (Average = 13.57) ; Number of LABs  (Total = 21) ;
 +---------------------------------------------+------------------------------+
 ; 1                                           ; 1                            ;
 ; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 0                            ;
-; 5                                           ; 1                            ;
+; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
-; 8                                           ; 3                            ;
-; 9                                           ; 2                            ;
-; 10                                          ; 0                            ;
-; 11                                          ; 1                            ;
-; 12                                          ; 0                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 0                            ;
+; 10                                          ; 2                            ;
+; 11                                          ; 0                            ;
+; 12                                          ; 3                            ;
 ; 13                                          ; 0                            ;
-; 14                                          ; 1                            ;
+; 14                                          ; 2                            ;
 ; 15                                          ; 0                            ;
-; 16                                          ; 13                           ;
+; 16                                          ; 12                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 2.09) ; Number of LABs  (Total = 22) ;
+; LAB-wide Signals  (Average = 2.43) ; Number of LABs  (Total = 21) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 20                           ;
-; 1 Clock                            ; 20                           ;
-; 1 Clock enable                     ; 4                            ;
-; 2 Clock enables                    ; 2                            ;
+; 1 Async. clear                     ; 21                           ;
+; 1 Clock                            ; 21                           ;
+; 1 Clock enable                     ; 8                            ;
+; 2 Clock enables                    ; 1                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 21.00) ; Number of LABs  (Total = 22) ;
+; Number of Signals Sourced  (Average = 22.24) ; Number of LABs  (Total = 21) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 1                            ;
-; 2                                            ; 0                            ;
+; 1                                            ; 0                            ;
+; 2                                            ; 1                            ;
 ; 3                                            ; 0                            ;
 ; 4                                            ; 0                            ;
-; 5                                            ; 1                            ;
+; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
-; 12                                           ; 2                            ;
-; 13                                           ; 1                            ;
+; 12                                           ; 1                            ;
+; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 2                            ;
+; 15                                           ; 2                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 0                            ;
 ; 18                                           ; 0                            ;
 ; 19                                           ; 0                            ;
-; 20                                           ; 1                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 1                            ;
-; 23                                           ; 0                            ;
-; 24                                           ; 2                            ;
-; 25                                           ; 1                            ;
-; 26                                           ; 1                            ;
+; 20                                           ; 0                            ;
+; 21                                           ; 3                            ;
+; 22                                           ; 2                            ;
+; 23                                           ; 2                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 2                            ;
+; 26                                           ; 3                            ;
 ; 27                                           ; 2                            ;
-; 28                                           ; 0                            ;
-; 29                                           ; 0                            ;
-; 30                                           ; 2                            ;
-; 31                                           ; 3                            ;
+; 28                                           ; 1                            ;
+; 29                                           ; 1                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 7.64) ; Number of LABs  (Total = 22) ;
+; Number of Signals Sourced Out  (Average = 8.05) ; Number of LABs  (Total = 21) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 2                            ;
-; 2                                               ; 0                            ;
-; 3                                               ; 1                            ;
-; 4                                               ; 3                            ;
-; 5                                               ; 3                            ;
+; 1                                               ; 1                            ;
+; 2                                               ; 1                            ;
+; 3                                               ; 0                            ;
+; 4                                               ; 0                            ;
+; 5                                               ; 6                            ;
 ; 6                                               ; 0                            ;
-; 7                                               ; 1                            ;
-; 8                                               ; 4                            ;
-; 9                                               ; 1                            ;
-; 10                                              ; 1                            ;
-; 11                                              ; 2                            ;
-; 12                                              ; 0                            ;
-; 13                                              ; 1                            ;
-; 14                                              ; 2                            ;
-; 15                                              ; 1                            ;
+; 7                                               ; 3                            ;
+; 8                                               ; 1                            ;
+; 9                                               ; 2                            ;
+; 10                                              ; 2                            ;
+; 11                                              ; 1                            ;
+; 12                                              ; 1                            ;
+; 13                                              ; 0                            ;
+; 14                                              ; 1                            ;
+; 15                                              ; 0                            ;
+; 16                                              ; 2                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 12.50) ; Number of LABs  (Total = 22) ;
+; Number of Distinct Inputs  (Average = 13.48) ; Number of LABs  (Total = 21) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
 ; 2                                            ; 0                            ;
-; 3                                            ; 1                            ;
-; 4                                            ; 2                            ;
-; 5                                            ; 1                            ;
-; 6                                            ; 0                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 2                            ;
+; 6                                            ; 2                            ;
 ; 7                                            ; 2                            ;
-; 8                                            ; 1                            ;
+; 8                                            ; 0                            ;
 ; 9                                            ; 1                            ;
-; 10                                           ; 1                            ;
-; 11                                           ; 1                            ;
-; 12                                           ; 2                            ;
-; 13                                           ; 0                            ;
+; 10                                           ; 3                            ;
+; 11                                           ; 0                            ;
+; 12                                           ; 0                            ;
+; 13                                           ; 1                            ;
 ; 14                                           ; 0                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 2                            ;
-; 17                                           ; 1                            ;
-; 18                                           ; 3                            ;
-; 19                                           ; 0                            ;
+; 15                                           ; 0                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 0                            ;
+; 19                                           ; 4                            ;
 ; 20                                           ; 1                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 0                            ;
-; 23                                           ; 0                            ;
-; 24                                           ; 1                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 1                            ;
+; 23                                           ; 1                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 0                            ;
+; 28                                           ; 0                            ;
+; 29                                           ; 0                            ;
+; 30                                           ; 0                            ;
+; 31                                           ; 0                            ;
+; 32                                           ; 0                            ;
+; 33                                           ; 0                            ;
+; 34                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -1521,17 +1534,15 @@ This will disable optimization of problematic paths and expose them for further 
 +------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-------------------+
 ; Source Register                                                                                                                          ; Destination Register                                                                                        ; Delay Added in ns ;
 +------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-------------------+
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|ten_thousand[0]     ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[16] ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred[3]          ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[11] ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred[1]          ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[9]  ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|ten[3]              ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[7]  ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|ten[1]              ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[5]  ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|ten[0]              ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[4]  ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred[0]          ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[8]  ; 0.076             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|ten_thousand[3]     ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_display[3]   ; 0.017             ;
-; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred_thousand[1] ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[21] ; 0.016             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|thousand[3]         ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[15] ; 0.074             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred[3]          ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[11] ; 0.074             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred[1]          ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[9]  ; 0.074             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|thousand[1]         ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[13] ; 0.055             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|thousand[0]         ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[12] ; 0.055             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred_thousand[0] ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[20] ; 0.016             ;
+; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|BDC_8421:BDC_8421_Instance|hundred_thousand[3] ; Segment_595_Dynamic:Segment_595_Dynamic_Instance|Segment_Dynamic:Segment_Dynamic_Instance|data_register[23] ; 0.016             ;
 +------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-------------------+
-Note: This table only shows the top 9 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 7 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1566,7 +1577,7 @@ Info (176353): Automatically promoted node system_reset_n~input (placed in PIN M
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1574,11 +1585,11 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X11_Y12 to location X22_Y24
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X23_Y12 to location X34_Y24
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.41 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.36 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1586,8 +1597,8 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file D:/TylerHong/Development/Learn/Learning-FPGA/20250221-Dynamic-Digital-Tube/Quartus Project/output_files/Dynamic_Digital_Tube.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 5975 megabytes
-    Info: Processing ended: Sat Feb 22 16:13:25 2025
+    Info: Peak virtual memory: 6001 megabytes
+    Info: Processing ended: Tue Feb 25 20:40:21 2025
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:06
 

@@ -1,5 +1,5 @@
 Flow report for Dynamic_Digital_Tube
-Sat Feb 22 16:13:30 2025
+Tue Feb 25 20:40:26 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Sat Feb 22 16:13:30 2025            ;
+; Flow Status                        ; Successful - Tue Feb 25 20:40:26 2025            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; Dynamic_Digital_Tube                             ;
 ; Top-level Entity Name              ; Dynamic_Digital_Tube                             ;
 ; Family                             ; Cyclone IV E                                     ;
 ; Device                             ; EP4CE10F17C8                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 281 / 10,320 ( 3 % )                             ;
-;     Total combinational functions  ; 267 / 10,320 ( 3 % )                             ;
-;     Dedicated logic registers      ; 185 / 10,320 ( 2 % )                             ;
-; Total registers                    ; 185                                              ;
+; Total logic elements               ; 285 / 10,320 ( 3 % )                             ;
+;     Total combinational functions  ; 268 / 10,320 ( 3 % )                             ;
+;     Dedicated logic registers      ; 186 / 10,320 ( 2 % )                             ;
+; Total registers                    ; 186                                              ;
 ; Total pins                         ; 6 / 180 ( 3 % )                                  ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 0 / 423,936 ( 0 % )                              ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 02/22/2025 16:13:18  ;
+; Start date & time ; 02/25/2025 20:40:15  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; Dynamic_Digital_Tube ;
 +-------------------+----------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+--------------------------------------------+---------------+-------------+----------------------------+
 ; Assignment Name                      ; Value                                      ; Default Value ; Entity Name ; Section Id                 ;
 +--------------------------------------+--------------------------------------------+---------------+-------------+----------------------------+
-; COMPILER_SIGNATURE_ID                ; 71205093825643.174025879816988             ; --            ; --          ; --                         ;
+; COMPILER_SIGNATURE_ID                ; 71205093825643.174053401424876             ; --            ; --          ; --                         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_Data_Generation ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_BCD_8421        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                         ; --            ; --          ; Simulation_Segment_Dynamic ;
@@ -113,12 +113,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:05     ; 1.0                     ; 5975 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 4522 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4720 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4522 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 6001 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4547 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4721 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4521 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
