@@ -1,5 +1,5 @@
 Assembler report for Dynamic_Digital_Tube
-Tue Feb 25 20:40:22 2025
+Thu Feb 27 19:31:18 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Feb 25 20:40:22 2025 ;
+; Assembler Status      ; Successful - Thu Feb 27 19:31:18 2025 ;
 ; Revision Name         ; Dynamic_Digital_Tube                  ;
 ; Top-level Entity Name ; Dynamic_Digital_Tube                  ;
 ; Family                ; Cyclone IV E                          ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                                                                                   ;
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 ; Device         ; EP4CE10F17C8                                                                                                                              ;
-; JTAG usercode  ; 0x000AD1AE                                                                                                                                ;
-; Checksum       ; 0x000AD1AE                                                                                                                                ;
+; JTAG usercode  ; 0x000AD38B                                                                                                                                ;
+; Checksum       ; 0x000AD38B                                                                                                                                ;
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Feb 25 20:40:22 2025
+    Info: Processing started: Thu Feb 27 19:31:17 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Dynamic_Digital_Tube -c Dynamic_Digital_Tube
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4547 megabytes
-    Info: Processing ended: Tue Feb 25 20:40:22 2025
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Thu Feb 27 19:31:18 2025
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 
