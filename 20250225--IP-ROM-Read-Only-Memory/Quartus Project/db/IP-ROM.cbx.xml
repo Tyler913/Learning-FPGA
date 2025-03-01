@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="IP-ROM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ROM|ROM_8x256:ROM_8x256_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qb91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
