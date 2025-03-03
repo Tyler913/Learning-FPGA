@@ -1,0 +1,83 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/simulation/modelsim
+T_opt
+!s110 1741031244
+Vd1l^c;iZ56cXi@P5::`WQ1
+04 15 4 work Simulation_FIFO fast 0
+=1-40c2ba52dc6b-67c6074c-fd-55dc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vFIFO
+Z1 !s110 1741031243
+!i10b 1
+!s100 dU18z4Wc@MR4bUNDI9<GQ3
+I_n]8Gjf_0ARSR5YG?zn^V1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741030128
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL/FIFO.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL/FIFO.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1741031243.519000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL/FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL/FIFO.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f@i@f@o
+vfifo_s_8x256
+R1
+!i10b 1
+!s100 5oZ=fLBULlP7LQ^IAQN8f3
+IC1gKj?3`F_HX]=?iNL^`62
+R2
+R0
+w1741031207
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256/fifo_s_8x256.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256/fifo_s_8x256.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1741031243.637000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256/fifo_s_8x256.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256|D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256/fifo_s_8x256.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/IP_Core/FIFO_s_8x256} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vSimulation_FIFO
+R1
+!i10b 1
+!s100 LH2fQC5EhhmZBRzjP^9kL0
+I>zcl9JiFHEi6C]ae@Jhh`2
+R2
+R0
+w1741030819
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation/Simulation_FIFO.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation/Simulation_FIFO.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1741031243.742000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation/Simulation_FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation/Simulation_FIFO.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work {+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250302-IP-FIFO-First-In-First-Out/Quartus Project/../Simulation} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@simulation_@f@i@f@o
