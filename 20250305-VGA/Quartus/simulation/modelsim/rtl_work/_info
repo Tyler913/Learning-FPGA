@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/simulation/modelsim
+vSimulation_VGA_Control
+!s110 1741294972
+!i10b 1
+!s100 k8PITA0OmNaR6h;E_7NN42
+IiI;oCH>h0oz:>ZQHJR8]30
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1741294936
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation/Simulation_VGA_Control.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation/Simulation_VGA_Control.v
+L0 4
+Z2 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1741294971.997000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation/Simulation_VGA_Control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation|D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation/Simulation_VGA_Control.v|
+!i113 0
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/Quartus/../Simulation -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@simulation_@v@g@a_@control
+vVGA_Control
+!s110 1741294971
+!i10b 1
+!s100 GKk^zh72JYFh:S1DPGhJo1
+I];mYX;XG9UgmLj0SBnogN0
+R1
+R0
+w1741283316
+8D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL/VGA_Control.v
+FD:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL/VGA_Control.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1741294971.893000
+!s107 D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL/VGA_Control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL|D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL/VGA_Control.v|
+!i113 0
+R3
+!s92 -vlog01compat -work work +incdir+D:/TylerHong/Development/Learn/Learning-FPGA/20250305-VGA/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@v@g@a_@control
