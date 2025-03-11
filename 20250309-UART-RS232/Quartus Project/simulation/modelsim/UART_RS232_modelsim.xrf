@@ -3,6 +3,7 @@ source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS23
 source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS232/RTL/UART_TX.v
 source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS232/Simulation/Simulation_UART_RX.v
 source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS232/RTL/UART_RX.v
+source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS232/Quartus Project/rs232.stp
 source_file = 1, D:/TylerHong/Development/Learn/Learning-FPGA/20250309-UART-RS232/Quartus Project/db/UART_RS232.cbx.xml
 design_name = RS232
 instance = comp, \tx~output , tx~output, RS232, 1
