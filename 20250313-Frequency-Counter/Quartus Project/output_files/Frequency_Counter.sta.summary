@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'system_clock'
+Slack : -7.360
+TNS   : -236.481
+
+Type  : Slow 1200mV 85C Model Setup 'clock_test'
+Slack : -2.799
+TNS   : -181.210
+
+Type  : Slow 1200mV 85C Model Hold 'system_clock'
+Slack : 0.573
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_test'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_test'
+Slack : -4.000
+TNS   : -255.941
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'system_clock'
+Slack : -3.000
+TNS   : -93.707
+
+Type  : Slow 1200mV 0C Model Setup 'system_clock'
+Slack : -6.594
+TNS   : -210.008
+
+Type  : Slow 1200mV 0C Model Setup 'clock_test'
+Slack : -2.519
+TNS   : -158.076
+
+Type  : Slow 1200mV 0C Model Hold 'clock_test'
+Slack : 0.522
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'system_clock'
+Slack : 0.534
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_test'
+Slack : -4.000
+TNS   : -255.045
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'system_clock'
+Slack : -3.000
+TNS   : -93.707
+
+Type  : Fast 1200mV 0C Model Setup 'system_clock'
+Slack : -2.662
+TNS   : -70.672
+
+Type  : Fast 1200mV 0C Model Setup 'clock_test'
+Slack : -0.681
+TNS   : -35.084
+
+Type  : Fast 1200mV 0C Model Hold 'system_clock'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_test'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_test'
+Slack : -3.000
+TNS   : -94.841
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'system_clock'
+Slack : -3.000
+TNS   : -68.300
+
+------------------------------------------------------------

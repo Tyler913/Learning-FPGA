@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Frequency_Counter">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Frequency_Counter|lpm_mult:Mult0" CBX_FILE_NAME="mult_3ht.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Frequency_Counter|pll:pll_inst|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>
